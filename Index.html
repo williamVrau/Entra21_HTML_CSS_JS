@@ -4,14 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atividade Currículo</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body style="background-color:gray;">
-    <h1 style="color: crimson;">Meu Currículo</h1>
-    <img src="ImagenPerfil.jpeg" style="border-radius: 10px;" alt="Imagem do Rosto do William Mateus de Novais">
+<body>
+    <header>
+        <nav>
+        <h1>Meu Currículo</h1>
+        <a href="#ExperiênciasProfissionais"><h3>Experiências Profissionais</h3></a>
+        <a href="#ExperiênciasAcademicas"><h3>Experiências Academicas</h3></a>
+        <a href="#ConhecimentodeProgramaçao"><h3>Conhecimento de Programaçao</h3></a>
+    
+    </nav>
+    </header>
+    <img class="Imagem" src="ImagenPerfil.jpeg" alt="Imagem do Rosto do William Mateus de Novais">
     <p>
+        <br/>
         Iniciei minha trajetória na área de TI e, atualmente, estou em transição para a programação, com foco no desenvolvimento mobile. Procuro oportunidades como desenvolvedor júnior, onde possa aplicar meus conhecimentos em tecnologias modernas, ao mesmo tempo em que busco aprendizado contínuo e adaptação às novas tendências. Estou comprometido em criar soluções inovadoras e eficientes, com atenção às melhores práticas e à qualidade do código.
         <br/>
+        <br/>
         <strong>Habilidades Técnicas:</strong><br/>
+        <br/>
         Flutter & Dart<br/>
         CSS & HTML<br/>
         JavaScript<br/>
@@ -19,9 +31,11 @@
         Intellij<br/>
         GitHub<br/>
         <br/>
+        <br/>
         <strong>Ferramentas:</strong><br/>
         Visual Studio Code<br/>
         GitHub<br/>
+        <br/>
         <br/>
         <strong>Habilidades Interpessoais:</strong><br/>
         Resolução de problemas<br/>
@@ -31,7 +45,7 @@
         Compromisso com a qualidade e boas práticas de programação<br/>
         Comunicação clara e objetiva<br/>
     </p>
-    <h3>Experiências Profissionais</h3>
+    <h3 id="ExperiênciasProfissionais">Experiências Profissionais</h3>
     <table>
         <tr>
             <th>Função</th>
@@ -49,14 +63,14 @@
             <td>RT Informática</td>
         </tr>
     </table>
-    <h3>Experiências Academicas</h3>
+    <h3 id="ExperiênciasAcademicas">Experiências Academicas</h3>
     <ul>
         <li>Python, SQLite, HTML, CSS E JavaScript no IFC - Blumenau</li>
         <li>Dart EAD Alura</li>
         <li>Flutter EAD Alura</li>
         <li>Java no Senac - Timbo</li>
     </ul>
-    <h3>Conhecimento de Programaçao</h3>
+    <h3 id="ConhecimentodeProgramaçao">Conhecimento de Programaçao</h3>
     <h4>Python</h4>
     <p>Em Python, obtive um nível de conhecimento avançado, passando desde o básico, como funções, estruturas de dados e repetições, até bibliotecas mais avançadas, como Pymath, Pygame, Flask, entre outras.</p>
     <h4>Dart</h4>
@@ -65,8 +79,15 @@
     <p>Iniciei os estudos em Flutter, conseguindo criar apenas um aplicativo base.</p>
     <h4>Java</h4>
     <p>Em Java, entrei no Entra21 sem saber nada. Até o momento, o que foi estudado foi o básico da linguagem de programação, estruturas básicas de repetição e lógica de programação.</p>
-    <h3>Segue abaixo os links do meu GitHub e LinkedIn:</h3>
-    <a href="https://github.com/williamVrau" target="_blank"><img src="GitHub-logo.png" alt="Logo do GitHub" width="100"></a>
-    <a href="https://www.linkedin.com/in/william-mateus-de-novais-38a20b327" target="_blank"><img src="linkedin-logo.png" width="100" alt="Imagem da Logo do LinkedIn"></a>
+    
+
+    <footer>
+        <h3>Segue abaixo os links do meu GitHub e LinkedIn:</h3>
+        <a  href="https://github.com/williamVrau" target="_blank"><img class="GitLink" src="GitHub-logo.png" alt="Logo do GitHub" width="100"></a>
+        <a  href="https://www.linkedin.com/in/william-mateus-de-novais-38a20b327" target="_blank"><img class="GitLink" src="linkedin-logo.png" width="100" alt="Imagem da Logo do LinkedIn"></a>
+        <a href="mailto:williammnovais@gmail.com"><p>Contato Email</p></a>
+        <p>copyright © Currículo William [2025] Todos os direitos reservados</p>
+    </footer>
+    
 </body>
 </html>

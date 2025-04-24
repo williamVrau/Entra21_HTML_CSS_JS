@@ -1,0 +1,57 @@
+body{
+    background-color: darkgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 20px;
+    background-color: rgb(185, 175, 175);
+}
+nav {
+    display: flex;
+    gap: 20px;
+  }
+nav a {
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+h1 {
+    border-bottom: 1px solid black;
+
+}
+h3{
+    font-size: 20px;
+}
+footer{
+    background-color: rgb(75, 114, 114);
+    padding: 20px;
+    border-radius: 10px;
+}
+.Imagem{
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    transition: all 80ms;
+    box-shadow: 1px 1px 10px;
+}
+.Imagem:hover {
+    width: 160px;
+    height: 160px;
+    border: 1px solid rgb(255, 0, 0);
+}
+
+.GitLink{
+    width: 100px;
+    transition: all 80ms;   
+
+}
+.GitLink:hover{
+    width: 120px;
+
+}
